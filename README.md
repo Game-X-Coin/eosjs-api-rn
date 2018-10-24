@@ -1,4 +1,8 @@
-[![NPM](https://img.shields.io/npm/v/eosjs-api.svg)](https://www.npmjs.org/package/eosjs-api)
+[![NPM](https://img.shields.io/npm/v/eosjs-api-rn.svg)](https://www.npmjs.org/package/eosjs-api-rn)
+
+# Eos API for React Native
+
+Library based on [eosjs-api](https://github.com/EOSIO/eosjs-api), with React Native compatibility
 
 # Eos API
 
@@ -8,7 +12,7 @@ read-only API calls.  If you need to sign transactions use
 
 # Include
 
-* Install with: `npm install eosjs-api`
+* Install with: `npm install eosjs-api-rn`
 * Html script tag, see [releases](https://github.com/EOSIO/eosjs-api/releases) for the correct **version** and its matching script **integrity** hash.
 
 ```html
@@ -20,7 +24,7 @@ read-only API calls.  If you need to sign transactions use
   sha512-Cj2FQb94MMtDPgHb1R1577pEMjYhc+P5pNgv1/QwoJD9ntuR9rnWlqJACS/xNniNK5cFS6Y6CpQlHWpzWUeEbw== lib/eos-api.min.js
   sha512-4C6oDKarS8DaXO99o342USbeQwqW98qik+QSzVGfof939gUpIyRDCnbGIGQAIkLNpYZIV4XanmRy3wcis6UW8w== lib/eos-api.min.js.map
   -->
-  <script src="https://cdn.jsdelivr.net/npm/eosjs-api@7.0.4/lib/eos-api.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/eosjs-api-rn@7.0.4/lib/eos-api-rn.min.js"
     integrity="sha512-LLDsX/GdVZYA82k9TVz3zUxSjvaX8s5b1FJm64W51JGxLFKI2z+ljqYQtsUZIOxh9pSUqvLA5HCoxXqdRxusKw=="
     crossorigin="anonymous"></script>
 
@@ -41,7 +45,7 @@ Run [nodeos](https://github.com/eosio/eos)
 ## Usage
 
 ```javascript
-EosApi = require('eosjs-api') // Or EosApi = require('./src')
+EosApi = require('eosjs-api-rn') // Or EosApi = require('./src')
 
 eos = EosApi() // // 127.0.0.1:8888
 
