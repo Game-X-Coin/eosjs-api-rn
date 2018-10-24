@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Game-X-Coin/eosjs-api.git"
+    "url": "git+https://github.com/Game-X-Coin/eosjs-api-rn.git"
   },
   "keywords": [
     "EOS",
